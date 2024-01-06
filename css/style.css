@@ -1,131 +1,151 @@
 /* Shared Style */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    font-family: 'Open Sans', sans-serif;
-
+body {
+  font-family: "Open Sans", sans-serif;
 }
-.text_primary{
-    color: #FD6E0A;
+.text_primary {
+  color: #fd6e0a;
 }
-.btn_primary{
-    background-color:#FD6E0A ;
-    color:#fff;
-    border: none;
-    border-radius: 5px;
-    font-size: 20px;
-   padding: 15px 35px;
-   font-weight: 700;
+.btn_primary {
+  background-color: #fd6e0a;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 15px 35px;
+  font-weight: 700;
 }
-
-h1,h2,h3,h4,h5,h6{
-    color:#181818
-}
-
-p{
-    color: #757575;
+.section_title {
+  text-align: center;
+  margin: 0 0 30px;
+  font-size: 35px;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #181818;
+}
+
+p {
+  color: #757575;
+  font-size: 18px;
+}
 
 /*        Header Style          */
-.header{
-    
-    background-image: url(/images/header_bg.png),url(/images/developer.png);         
-    background-repeat: no-repeat;
-    background-size: auto, 5% 85%;
-    background-position: bottom right, 23px ;
-    background-color: #FFF8F3;
+.header {
+  background-image: url(/images/header_bg.png), url(/images/developer.png);
+  background-repeat: no-repeat;
+  background-size: auto, 5% 85%;
+  background-position: bottom right, 23px;
+  background-color: #fff8f3;
 }
 /* Nav Style */
-nav{
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 150px;
+  padding-top: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: #474747;
+}
+nav li {
+  list-style: none;
+  margin-right: 50px;
+}
+.nav_title {
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+.nav_menu {
+  align-items: center;
+  display: flex;
+}
+
+/* Banner Style */
+
+.banner {
+  padding: 30px 30px 0 150px;
+  display: flex;
+  align-items: center;
+  color: #474747;
+  font-weight: 400;
+  justify-content: space-between;
+}
+
+.banner h3 {
+  font-weight: 500;
+  font-size: 40px;
+}
+.banner_content {
+  width: 585px;
+}
+.banner_content p {
+  margin-bottom: 30px;
+}
+
+.banner h1 {
+  margin: 5px auto 10px;
+  font-size: 80px;
+  font-weight: 800;
+}
+.profile_picture {
+  width: 550px;
+}
+
+/* Main */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.about {
+  margin: 130px auto;
+  background-color: #fff8f3;
+  padding: 130px 150px;
+  text-align: center;
+}
+
+.about_info-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  /* align-items: center; */
+}
+.about_info {
+  text-align: center;
+}
+.what_i_do{
+    margin-bottom: 20px; 
+}
+
+
+#what_i_do_desc{
+    padding: 30px 150px;
+    margin-bottom: 50px;
+}
+
+.skill_container{
     display: flex;
     justify-content: space-between;
-    margin: 0 150px;
-    padding-top: 20px;
-}
-nav a{
-    text-decoration: none;
-    color: #474747;
-}
-nav li{
-    list-style: none;
-    margin-right: 50px;
-    
-}
-.nav_title{
-    font-weight: 800;
-    font-size: 3rem;
 }
 
-
-.nav_menu{
-    align-items: center;
-    display: flex;
+.skill{
+    padding: 35px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 9px rgba(0, 0, 0, 6%);
 }
-
-      /* Banner Style */
-
-.banner{
-    padding: 30px 30px 0 150px;
-    display: flex;
-    align-items: center;
-    color: #474747;
-    font-weight: 400;
-    justify-content: space-between;
-    
-}
-
-.banner h3{
-font-weight: 500;
-    font-size: 40px;
-}
-.banner_content{
-    width: 585px;
-}
-.banner_content p{
-margin-bottom: 30px;
-}
-
-.banner h1{
-    
-    margin: 5px auto 10px;
-    font-size: 80px;
-    font-weight: 800;
-}
-.profile_picture{
-    width: 550px;
-    
-}
-
-           /* Main */
-main{
-    max-width: 1140px;
-    margin: 0 auto;
-}
-
-
-
-
-
-.about{
-   
-    margin: 130px auto;
-    background-color: #FFF8F3;
-    padding: 130px 150px;
-    text-align: center;
-}           
-
-.about_info-container{
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-around;
-   font-size: 20px;
-    /* align-items: center; */
-    
-}
-.about_info{
-    text-align: center;
+.skill_title{
+    margin: 30px 0;
 }
