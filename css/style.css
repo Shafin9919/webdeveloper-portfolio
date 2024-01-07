@@ -106,7 +106,7 @@ nav li {
 /* Main */
 main {
   max-width: 1140px;
-  margin: 0 auto;
+  margin: 0 auto 115px;
 }
 
 .about {
@@ -132,6 +132,7 @@ main {
 
 
 #what_i_do_desc{
+  text-align: center;
     padding: 30px 150px;
     margin-bottom: 50px;
 }
@@ -150,3 +151,43 @@ main {
 .skill_title{
     margin: 30px 0;
 }
+
+.resume_container{
+  display: flex;
+  gap: 70px;
+  margin-bottom: 50px;
+}
+
+.resume_column-title{
+  font-size: 30px;
+  color:#474747;
+  font-weight: 700;
+  margin: 90px 0px 70px;
+}
+
+
+.resume_item hr{
+  margin: 30px 0;
+  color: #757575;
+}
+
+.item_title{
+  font-size: 25px;
+  color:#474747;
+  margin-bottom: 10px;
+}
+
+.item_info{
+  color: #757575;
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+
+.btn-cv{
+ display: block;
+  margin: 0 auto;
+  
+}
+
