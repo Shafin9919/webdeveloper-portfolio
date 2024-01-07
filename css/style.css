@@ -10,15 +10,29 @@ body {
 .text_primary {
   color: #fd6e0a;
 }
-.btn_primary {
-  background-color: #fd6e0a;
-  color: #fff;
+
+button{
   border: none;
   border-radius: 5px;
   font-size: 20px;
   padding: 15px 35px;
   font-weight: 700;
+
+
 }
+
+.btn_primary {
+  background-color: #fd6e0a;
+  color: #fff;
+  
+}
+.btn_secondary{
+  opacity: 1;
+  background-color: transparent;
+  border: 2px solid #fd6e0a;
+  color: #fd6e0a;
+}
+
 .section_title {
   text-align: center;
   margin: 0 0 30px;
@@ -116,6 +130,10 @@ nav li {
 }
 .profile_picture {
   width: 550px;
+}
+
+.banner .btn_primary{
+  margin-right: 30px;
 }
 
 /* Main */
