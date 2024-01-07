@@ -15,10 +15,13 @@ button{
   border: none;
   border-radius: 5px;
   font-size: 20px;
-  padding: 15px 35px;
+  padding: 18px 32px;
   font-weight: 700;
 
 
+}
+i{
+  margin-right: 10px;
 }
 
 .btn_primary {
@@ -253,3 +256,5 @@ footer{
 .footer_form .message{
   height: 180px;
 }
+
+
