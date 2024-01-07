@@ -39,6 +39,21 @@ p {
   font-size: 18px;
 }
 
+.column-title{
+  font-size: 35px;
+  color:#474747;
+  font-weight: 700;
+
+}
+
+.column_desc{
+    color: #757575;
+    font-weight: 400;
+    font-size: 20px;
+   
+  
+}
+
 /*        Header Style          */
 .header {
   background-image: url(/images/header_bg.png), url(/images/developer.png);
@@ -158,10 +173,8 @@ main {
   margin-bottom: 50px;
 }
 
+
 .resume_column-title{
-  font-size: 30px;
-  color:#474747;
-  font-weight: 700;
   margin: 90px 0px 70px;
 }
 
@@ -191,3 +204,31 @@ main {
   
 }
 
+           /* Footer Section */
+
+footer{
+  background-color: #fff8f3;
+  display: flex;
+  padding: 130px 230px;
+ gap: 120px;
+}           
+
+.social_icon{
+  margin: 10px 15px 0 0;
+  width: 20px;
+  
+}
+#footer h3{
+  margin: 25px 0;
+
+}
+
+.footer_form input{
+  width: 460px;
+  padding: 15px;
+  margin: 0 0 25px;
+}
+
+.footer_form .message{
+  height: 180px;
+}
