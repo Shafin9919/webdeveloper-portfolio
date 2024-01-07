@@ -56,7 +56,7 @@ p {
 
 /*        Header Style          */
 .header {
-  background-image: url(/images/header_bg.png), url(/images/developer.png);
+  background-image: url(../images/header_bg.png), url(../images/developer.png);
   background-repeat: no-repeat;
   background-size: auto, 5% 85%;
   background-position: bottom right, 23px;
@@ -227,6 +227,9 @@ footer{
   width: 460px;
   padding: 15px;
   margin: 0 0 25px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
 }
 
 .footer_form .message{
