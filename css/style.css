@@ -5,6 +5,7 @@
   box-sizing: border-box;
 }
 body {
+  max-width: 1920px;
   font-family: "Open Sans", sans-serif;
 }
 .text_primary {
@@ -17,8 +18,6 @@ button{
   font-size: 20px;
   padding: 18px 32px;
   font-weight: 700;
-
-
 }
 i{
   margin-right: 10px;
@@ -132,7 +131,7 @@ nav li {
   font-weight: 800;
 }
 .profile_picture {
-  width: 550px;
+  max-width: 55%;
 }
 
 .banner .btn_primary{
@@ -244,8 +243,9 @@ footer{
 
 }
 
-.footer_form input{
+.footer_form input,textarea{
   width: 460px;
+  max-width: 460px;
   padding: 15px;
   margin: 0 0 25px;
   border: none;
@@ -255,6 +255,175 @@ footer{
 
 .footer_form .message{
   height: 180px;
+  max-height: 180px;
+
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1024px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.column-title{
+font-size: 1.5rem;
+}
+.column_desc{
+  font-size: .5rem;
+}
+  body{
+   
+  }
+  .section_title{
+    font-size: 2rem;
+  }
+  button{
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 12px 20px;
+    font-weight: 700;
+  }
+  main{
+    margin: 0;
+  }
+  nav{
+    margin: 0;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+  nav li{
+    margin: 0;
+  }
+  .nav_menu{
+
+    gap: 10px;
+  }
+  p {
+    
+    font-size: .75rem;
+  }
+  
+  .banner{
+    padding: 1rem;
+    flex-direction: column-reverse;
+    text-align: center;
+    
+  }
+  .banner h3{
+    font-size: 1.5rem;
+  }
+  .banner_content{
+    max-width: 90vw;
+  }
+  .banner_content h1,h3{
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .profile_picture{
+    min-width:200px ;
+  }
+  .banner .btn_primary{
+    margin-right: 10px;
+  }
+
+.about{
+  width: 100%;
+  padding: 1rem .5rem;
+  margin:1rem 0 ;
+}
+.about_info-container{
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.what_i_do{
+  margin-bottom: 20px;
+}
+#what_i_do_desc{
+  padding: 0;
+}  
+
+.skill_container{
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.resume{
+  padding: .5rem;
+}
+.resume_container{
+  margin-bottom:2rem;
+  flex-direction: column;
+  text-align: center;
+}
+
+.resume_column-title{
+  margin: 10px 0 15px;
+  padding: .5rem 0;
+  border-bottom: 2px dotted black;
+}
+.item_title{
+  font-size: 1rem;
+}
+
+#footer{
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 1rem;
+  background-color: #fff8f3;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 2rem;
+ gap: 10px;
+}
+
+
+        
+
+.social_icon{
+  margin: 10px 15px 0 0;
+  width: 10px;
+  
+}
+#footer h3{
+  font-size: 1rem;
+  margin: 12px 0;
+
+}
+
+.footer_form input,textarea{
+  /* width: 460px; */
+  max-width: 80%;
+  padding: 15px;
+  margin: 0 0 .75rem;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.footer_form .message{
+  height: 80px;
+  max-height: 180px;
+
+}
+
+
+
+}
 
