@@ -441,7 +441,9 @@ font-size: 1.5rem;
   max-height: 180px;
 
 }
-
+.header{
+  background-size: auto, 5% 40%;
+}
 
 
 }
